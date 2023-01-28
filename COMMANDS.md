@@ -16,7 +16,6 @@ $$some important point to remember over here
   hit cd.. for as many times until you get C:/> 
   or directly hit Cd\
   
-
 #changing directories 
    Now if you like to view the directories in the windows directory then 
   first get into the DOS directory then hit
@@ -32,21 +31,21 @@ $$some important point to remember over here
 #To view the diectory in wide format type
   dir /w
  
- #if the directory contains more files than will fit on screen, you can combine the /p and /w switches as follows 
+#if the directory contains more files than will fit on screen, you can combine the /p and /w switches as follows 
   dir /w/p
  
   
-  #Create a directory 
+#Create a directory 
   type md space directoryname
   
   To confirm that you have created the new directory type
   dir
   if the directory is present then you have successfully created the directory
   
-  #To change into the new directory tyoe the following at the command prompt 
+#To change into the new directory tyoe the following at the command prompt 
   cd newdirectoryname
   
-  #Now when you be into the directory, you can create as much directory as you want by hitting 
+#Now when you be into the directory, you can create as much directory as you want by hitting 
   md directoryname
  
   
@@ -72,19 +71,19 @@ $$some important point to remember over here
  >>you have successfully created the School directory
   
   
-  #deleting a directory
+#deleting a directory
     rules:
       You cannot be in the directory that you are
       if you are then type cd..
   Now type dir to view all the directory then
   type rd space directoryname
   
-  #Changing the drives
+#Changing the drives
   type drivename: enter
   for instance 
      type a: enter
   
-  #copying fuikes 
+#copying files 
   type
   copy directoryname foldername
   
@@ -92,19 +91,19 @@ $$some important point to remember over here
   copy notepad.exe folder_directory
   
   
-  #Renaming files
+#Renaming files
   Type,
     ren oldname newname
   ren notepad.exe padnote.exe
   
   
-  #Deleting files
+#Deleting files
   Type,
    del foldername
   for instance,
   del notepad.exe
  
-  #View all the files that ends with extension old
+#View all the files that ends with extension old
   dir *.old
   
   In the same way if you want to delete all the directory with the extension old 
